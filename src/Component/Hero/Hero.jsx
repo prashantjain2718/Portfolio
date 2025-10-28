@@ -1,5 +1,5 @@
 import './Hero.css'
-import my_photo from 'public/my_photo.jpg'
+import my_photo from '../public/my_photo.jpg'
 export default function Hero() {
   return (
     <>
@@ -16,5 +16,6 @@ export default function Hero() {
     </>
   );
 }
+
 
 
