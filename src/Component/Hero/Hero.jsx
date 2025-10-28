@@ -10,9 +10,10 @@ export default function Hero() {
             <a href="#projects" className="btn-primary">View My Work</a>
         </div>
         <div className="hero-right">
-            <img src="src/assets/my_photo.jpg" alt="my photo" />
+            <img src="public/my_photo.jpg" alt="my photo" />
         </div>
       </section>
     </>
   );
 }
+
