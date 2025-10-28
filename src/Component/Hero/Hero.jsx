@@ -1,5 +1,5 @@
 import './Hero.css'
-
+import my_photo from 'public/my_photo.jpg'
 export default function Hero() {
   return (
     <>
@@ -10,10 +10,11 @@ export default function Hero() {
             <a href="#projects" className="btn-primary">View My Work</a>
         </div>
         <div className="hero-right">
-            <img src="public/my_photo.jpg" alt="my photo" />
+            <img src={my_photo} alt="my photo" />
         </div>
       </section>
     </>
   );
 }
+
 
