@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--card-background);
+    color: var(--light-text-color);
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 10px var(--shadow-light);
+}
+
+.footer p {
+    margin: 0;
+    color: var(--light-text-color);
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    color: var(--light-text-color);
+    font-size: 1.8em;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+}
