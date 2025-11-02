@@ -64,10 +64,60 @@
     box-shadow: 0 10px 25px var(--shadow-strong);
 }
 
-.skill-card p {
-    margin-top: 15px;
-    font-size: 1.1em;
-    font-weight: 600;
-    color: var(--text-color);
+
+@media (max-width: 768px) {
+    #skills {
+        padding: 60px 20px;
+    }
+
+    .skills h2 {
+        font-size: 2.2em;
+        margin-bottom: 40px;
+    }
+
+    .skills-icons {
+        gap: 25px;
+    }
+
+    .skills-icons .icon {
+        font-size: 3.5rem;
+    }
+
+    .skill-card {
+        padding: 20px 25px;
+        min-width: 130px;
+    }
+
+    .skill-card p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    #skills {
+        padding: 40px 15px;
+    }
+
+    .skills h2 {
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+
+    .skills-icons {
+        gap: 20px;
+    }
+
+    .skills-icons .icon {
+        font-size: 3rem;
+    }
+
+    .skill-card {
+        padding: 15px 20px;
+        min-width: 110px;
+    }
+
+    .skill-card p {
+        font-size: 0.9em;
+    }
 }
 

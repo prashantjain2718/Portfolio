@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
     .nav-list {
         flex-direction: column;
         position: absolute;
@@ -63,7 +67,7 @@
     }
 
     .nav-list.active {
-        height: 250px; /* Adjust based on content */
+        max-height: 300px; /* Adjust based on content, use max-height for flexibility */
     }
 
     .nav-list li {

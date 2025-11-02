@@ -62,9 +62,42 @@
     box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
 }
 
-.hero-right img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px var(--shadow-medium);
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-left p {
+        font-size: 1.4em;
+    }
+
+    .hero-right {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero-left h1 {
+        font-size: 2em;
+    }
+
+    .hero-left p {
+        font-size: 1.2em;
+    }
+
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
 }

@@ -24,7 +24,27 @@
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.social-icon:hover {
-    color: var(--primary-color);
-    transform: scale(1.2);
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 15px;
+        font-size: 0.8em;
+    }
+
+    .social-icon {
+        font-size: 1.5em;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 10px;
+        font-size: 0.75em;
+    }
+
+    .social-icon {
+        font-size: 1.3em;
+        margin: 0 6px;
+    }
 }
